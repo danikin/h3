@@ -14,6 +14,7 @@ The public API of this library consists of the functions declared in file
     - `vertexToPoint(vertex, out)` 
     - `isValidVertex(vertex)` 
 - closed-form implementation of `numHexagons`
+- -O3 compiler option
 
 ### Breaking changes
 - `maxH3ToChildrenSize` to output `int64_t` instead of `int`
