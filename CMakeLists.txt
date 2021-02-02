@@ -77,6 +77,7 @@ if(NOT WIN32)
     # Compiler options are set only on non-Windows, since these options
     # are not correct for MSVC.
     list(APPEND H3_COMPILE_FLAGS -Wall)
+    list(APPEND H3_COMPILE_FLAGS -O3)
 
     list(APPEND H3_COMPILE_FLAGS $<$<CONFIG:Debug>:-gdwarf-2 -g3 -O0 -fno-inline -fno-eliminate-unused-debug-types>)
 
